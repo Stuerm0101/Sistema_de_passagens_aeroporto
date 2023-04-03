@@ -61,7 +61,7 @@ int main(void) {
     }
     if (op==0){
         escreverArquivo("passagens.csv");
-        break;
+        break; //encerra programa
     }
 }}
 
