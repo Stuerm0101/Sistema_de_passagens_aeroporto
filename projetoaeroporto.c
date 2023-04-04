@@ -29,9 +29,9 @@ int main(void) {
     lerArquivoPassagens("passagens.csv");
     int codigovoo, rg, op, num;
     while (1){
-        printf("\n--------------------- UPE VOOS ----------------------\n");
+        printf("\n----------------------- UPE VOOS ------------------------\n");
         printf("Digite 1 para gerar o relatoria dos voos:\nDigite 2 para comprar um passagem:\nDigite 3 para gerar relatorio de voos por aeroporto:\nDigite 0 Para encerrar o programa:\n ");
-         printf("\n-----------------------------------------------------\n");
+         printf("\n---------------------------------------------------------\n");
         scanf("%i", &op);
         switch (op)
         {
